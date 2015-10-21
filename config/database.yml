@@ -24,7 +24,7 @@ production:
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: maki1121
+  username: makino1121
   password: afterdark
   host: 54.65.219.227
   database: addb

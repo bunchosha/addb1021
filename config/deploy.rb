@@ -1,3 +1,5 @@
+require 'capistrano-unicorn'
+
 set :application, "addb1021"
 set :repo_url, 'git@github.com:bunchosha/addb1021.git'#gitからコードをcloneする
 set :branch, 'master' #マージ前なら他のブランチでも設定可能
