@@ -5,7 +5,7 @@ pid "/var/www/addb1021/shared/tmp/pids/unicorn.pid"
 application = 'reserve-hacker'
 
 worker_processes 2 #EC2のインスタンスのCPU数より少し大きく
-app_path = "/var/www/ebdb1021"
+app_path = "/var/www/addb1021"
 #標準だとsharedに作成される
 #ここが一番重要
 #Nginxのupstreamで設定した「server unix:/var/www/あなたのアプリ名/shared/tmp/sockets/unicorn.sock」の場所と合わせる！！
