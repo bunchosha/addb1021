@@ -13,8 +13,8 @@ set :linked_dirs, %w{bin log tmp/backup tmp/pids tmp/cache tmp/sockets vendor/bu
 after 'deploy:publishing', 'deploy:restart'
 namespace :deploy do
   task :restart do
-#    invoke 'unicorn:restart'
-    invoke 'unicorn:reload'
+    invoke 'unicorn:restart'
+
   end
 end
 
