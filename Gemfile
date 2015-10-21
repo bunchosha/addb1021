@@ -59,3 +59,6 @@ group :development do
   gem 'capistrano-ssh-doctor', '~> 1.0'
 end
 
+gem 'libv8'
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
